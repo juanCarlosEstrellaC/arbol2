@@ -1,10 +1,10 @@
 package com.funcional.lista;
 
+// Hoja sin valor y sin iz/der
 public final class NodoHoja<T> implements ArbolBinario<T> {
 
-    public NodoHoja() { //protected?
+    protected NodoHoja() { 
     }
-
 
     @Override
     public T getValor() {

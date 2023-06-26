@@ -1,5 +1,6 @@
 package com.funcional.lista;
 
+//Nodo comun
 public final class NodoInterno<T> implements ArbolBinario<T> {
 
     private final T valor;

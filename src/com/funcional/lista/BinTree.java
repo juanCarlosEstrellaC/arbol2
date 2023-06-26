@@ -8,7 +8,6 @@ public final class BinTree<T> implements ArbolBinario<T> {
         this.arbol = arbol;
     }
 
-
     @Override
     public T getValor() {
         return arbol.getValor();
